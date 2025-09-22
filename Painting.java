@@ -3,7 +3,7 @@ import org.code.neighborhood.*;
 public class Painting extends PainterPlus {
 
   public void drawFrame() {
-
+//moves to the coordinate I need it to get to.
 turnRight();
     move();
     move();
@@ -33,6 +33,7 @@ turnRight();
     move();
     turnLeft();
 move();
+    //starts to paint the mural in the middle.
     paint("chocolate");
     move();
     paint("chocolate");
@@ -184,5 +185,7 @@ move();
     move();
     paint("black");
     move();
+    //is finished with the mural.
   }
+
 }
