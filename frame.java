@@ -1,7 +1,7 @@
 import org.code.neighborhood.*;
 
 public class frame extends PainterPlus {
-
+//goes to the coordinates I need it to get too.
    public void drawFrame() {
     turnRight();
     move();
@@ -28,6 +28,7 @@ public class frame extends PainterPlus {
     move();
     move();
     move();
+      //starts to paint the golden frame.
     paint("gold");
     move();
     paint("gold");
@@ -104,3 +105,4 @@ public class frame extends PainterPlus {
     paint("gold");
   }
 }
+
