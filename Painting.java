@@ -47,7 +47,7 @@ move();
     paint("turquoise");
     move();
     paint("turquoise");
-move();
+move(); // wraps around to complete the next row.
     turnRight();
     move();
     turnRight();
@@ -68,7 +68,7 @@ move();
     move();
     paint("turquoise");
 move();
-    turnLeft();
+    turnLeft();// wraps around to complete the next row.
     move();
     turnLeft();
 move();
@@ -88,7 +88,7 @@ move();
     move();
     paint("turquoise");
 move();
-    turnRight();
+    turnRight();// wraps around to complete the next row.
     move();
     turnRight();
 move();
@@ -108,7 +108,7 @@ move();
     move();
     paint("turquoise");
 move();
-    turnLeft();
+    turnLeft();// wraps around to complete the next row.
     move();
     turnLeft();
 move();
@@ -128,7 +128,7 @@ move();
     move();
     paint("turquoise");
 move();
-    turnRight();
+    turnRight();// wraps around to complete the next row.
     move();
     turnRight();
 move();
@@ -149,7 +149,7 @@ move();
     paint("turquoise");
 move();
     turnLeft();
-    move();
+    move();// wraps around to complete the next row.
     turnLeft();
 move();
     paint("turquoise");
@@ -168,7 +168,7 @@ move();
     move();
     paint("turquoise");
     turnRight();
-    move();
+    move();// wraps around to complete the next row.
     turnRight();
 move();
     paint("black");
@@ -189,3 +189,4 @@ move();
   }
 
 }
+
