@@ -41,7 +41,7 @@ public class PainterPlus extends Painter {
       paint(color);
     }
   }
- 
+ // paints one row the string color.
   public void paintRow(String color) {
   while(canMove()){
    paint(color);
@@ -50,7 +50,7 @@ public class PainterPlus extends Painter {
 
   }
   }
-  
+  //paints the whole grid by using while, if, and else statements.
   public void paintGrid() {
   boolean goingRight = true;
 
@@ -78,4 +78,5 @@ public class PainterPlus extends Painter {
   
     
   
+
 
